@@ -1,0 +1,207 @@
+.container {
+    width:1140px;
+    margin:0 auto;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
+/*Header*/
+header {
+    margin:93px 0 77px;
+    box-sizing: border-box;
+
+}
+.logo{
+    float: left;
+    width:30%;
+}
+.main-nav{
+    width:70%;
+    overflow: hidden;
+}
+.main-nav ul{
+    list-style-type: none;
+    font-size: 0;
+    float: right;
+}
+.main-nav ul li{
+    margin-left:48px;
+    display: inline-block;
+
+}
+
+.main-nav ul li a{
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom:5px solid transparent;
+    display: inline-block;
+
+}
+
+.main-nav ul li a:hover{
+    text-decoration: none;
+    border-color: #000;
+}
+
+/*main banner*/
+#main-banner {
+    margin-bottom: 74px;
+}
+#main-banner .wrapper{
+    height:550px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    overflow: auto;
+
+}
+
+#main-banner .wrapper h1 {
+    margin:14% auto;
+    text-align: center;
+    width:50%;
+    letter-spacing: 10px;
+    text-shadow: 0 0 20px rgba(48, 48, 48, 0.7);
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+/*posts*/
+#posts .post{
+    margin-bottom:72px;
+    overflow: hidden;
+    position: relative;
+}
+#posts .post .date {
+    text-align: left;
+    overflow: hidden;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 9px;
+}
+#posts .post .post-text{
+    width: 538px;
+    float: right;
+}
+#posts .post .post-text .post-name{
+    margin:0;
+    margin-bottom:72px;
+    text-align: right;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+#posts .post .post-text p {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 487px;
+}
+#posts .post .post-text .more a{
+
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+#posts .post:first-child .date{
+    text-align: right;
+}
+#posts .post:first-child .post-text{
+    width: 351px;
+    float: left;
+}
+#posts .post:first-child .post-text .post-name{
+    text-align: left;
+}
+
+#posts .post:first-child .post-text p {
+    width: 351px;
+    margin:0;
+
+}
+#posts .post:first-child .post-img{
+    float: right;
+}
+
+#posts .post:last-child{
+    overflow: inherit;
+}
+#posts .post:last-child .date{
+    position: absolute;
+    right:0;
+    top:-220px;
+    height:26px;
+}
+#posts .post:last-child .post-text{
+    width: 351px;
+    float: left;
+}
+#posts .post:last-child .post-text .post-name{
+    margin-top: 150px;
+    text-align: left;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 88px;
+}
+
+#posts .post:last-child .post-text p {
+    width: 351px;
+    margin:0;
+
+}
+#posts .post:last-child .post-img{
+    position: absolute;
+    right:0;
+    top:-185px;
+    height:0;
+}
+
+
+
+/*sighup*/
+#signup {
+    overflow: hidden;
+}
+#signup .wrapper{
+    height: 260px;
+    background-image: url("../img/signup.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    overflow: auto;
+
+}
+#signup .wrapper h1{
+    text-align: center;
+    margin:8% auto;
+    text-shadow: 0 0 20px rgba(48, 48, 48, 0.7);
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+}
